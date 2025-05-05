@@ -67,6 +67,7 @@ After adding the credentials, run `source ~/.bashrc` to load the variables.
 
 ```bash
 cd live/dev/infra/k8s-ovh
+Modify the configuration file terragrunt.hcl to fit your environment and infrastructure requirements.
 terragrunt plan
 terragrunt apply
 ```
@@ -79,6 +80,7 @@ This uses the `k8s-ovh` module to provision a managed Kubernetes cluster on OVHC
 
 ```bash
 cd live/dev/infra/ingress-nginx
+Modify the configuration file terragrunt.hcl to fit your environment and infrastructure requirements.
 terragrunt plan
 terragrunt apply
 ```
@@ -91,6 +93,7 @@ This deploys the NGINX ingress controller using Helm.
 
 ```bash
 cd live/dev/apps/cert-manager
+Modify the configuration file terragrunt.hcl to fit your environment and infrastructure requirements.
 terragrunt plan
 terragrunt apply
 ```
@@ -107,6 +110,7 @@ modules/cert-manager/issuer.yaml
 
 ```bash
 cd live/dev/apps/prometheus-stack
+Modify the configuration file terragrunt.hcl to fit your environment and infrastructure requirements.
 terragrunt plan
 terragrunt apply
 ```
@@ -145,6 +149,7 @@ To deploy or update a component:
 
 ```bash
 cd live/<env>/<apps|infra>/<component>
+Modify the configuration file terragrunt.hcl to fit your environment and infrastructure requirements.
 terragrunt plan
 terragrunt apply
 ```
