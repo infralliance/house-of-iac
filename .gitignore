@@ -1,0 +1,29 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Ignore Terraform directories
+.terraform/
+
+# Ignorer Terragrunt directories
+.terragrunt-cache/
+
+# Ignore local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Kubernetes Kubeconfig files
+kubeconfig
+.kube/
+config
